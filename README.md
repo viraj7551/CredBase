@@ -36,13 +36,13 @@ Remembering credentials for infinite site has become difficult for user so they 
 - Git Hub
 
 
-# Steps to Setup Environment
+# Steps to Setup Environment 	&#127942;
 
 1. SQL Database setup
    - Download and Install MySQL Installer
      Note: During Installation keep username as "root" and password as "root"
 
-   # Follow below sql queries:
+      Follow below sql queries:
       - create database credbase;
       - use credbase;
       - create table user(firstname varchar(10) NOT NULL, lastname varchar(10) NOT NULL, username varchar(10) PRIMARY KEY, email varchar(20) NOT NULL, 
