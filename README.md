@@ -19,6 +19,7 @@ Remembering credentials for infinite site has become difficult for user so they 
      - Reset Password
 - Generate Password
 - Add Credentials
+- Remove Credential
 - Credentials List
 - Session Tracking
 - Validate Form Input
