@@ -51,15 +51,17 @@ Remembering credentials for infinite site has become difficult for user so they 
         userId varchar(10));
       - alter table credentials add constraint Foreign Key (userId) references user(username);
       - alter table credentials alter credential2 set default 'NA';
-        
-2. Install Apache Tomcat Server 9.0
 
-3. Open Project workspace into eclipse
+2. Clone the project into local workspace
+     - git clone https://github.com/viraj7551/CredBase
+3. Install Apache Tomcat Server 9.0
 
-4. Configure Apache Tomcat Server into project workspace
+4. Open Project workspace into eclipse
+
+5. Configure Apache Tomcat Server into project workspace
      - Window > Preferences > filter and select server > select runtime environment > add Apache tomcat server 9.0 > browse and select server root directory
        > click on apply
        
-5. window where there is console and many other options below, select server tab, configure admin and http port
+6. window where there is console and many other options below, select server tab, configure admin and http port
 
-6. Run jsp file with server
+7. Run jsp file with server
