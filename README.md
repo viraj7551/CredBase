@@ -66,3 +66,36 @@ Remembering credentials for infinite site has become difficult for user so they 
 6. window where there is console and many other options below, select server tab, configure admin and http port
 
 7. Run jsp file with server
+
+
+# Application Snaps
+
+1. Sign in page
+
+<img src="./images/login.png">
+
+2. Sign up page
+
+<img src="./images/register.png">
+
+3. verify Email page
+
+<img src="./images/verifyEmail.png">
+
+4. reset password page
+
+<img src="./images/resetPassword.png">
+
+5. generate password page
+
+<img src="./images/generate password.png">
+
+6. add credential page
+
+<img src="./images/add credential.png">
+
+7. credential list
+
+<img src="./images/credential list.png">
+
+<img src="./images/credentialList2.png">
