@@ -48,10 +48,9 @@ Remembering credentials for infinite site has become difficult for user so they 
       - use credbase;
       - create table user(firstname varchar(10) NOT NULL, lastname varchar(10) NOT NULL, username varchar(10) PRIMARY KEY, email varchar(20) NOT NULL, 
         password varchar(15) NOT NULL, confirm_password varchar(15) NOT NULL);
-      - create table credentials(sitename varchar(20) NOT NULL, username varchar(20) NOT NULL, credential1 varchar(15) NOT NULL, credential2 varchar(15),
+      - create table credentials(sitename varchar(20) NOT NULL, username varchar(20) NOT NULL, credential1 varchar(15) NOT NULL,
         userId varchar(10));
       - alter table credentials add constraint Foreign Key (userId) references user(username);
-      - alter table credentials alter credential2 set default 'NA';
 
 2. Clone the project into local workspace
      - git clone https://github.com/viraj7551/CredBase
