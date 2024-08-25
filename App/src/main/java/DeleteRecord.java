@@ -12,6 +12,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class DeleteRecord extends HttpServlet {
 	Connection con;
@@ -33,22 +34,26 @@ public class DeleteRecord extends HttpServlet {
 	  response.setContentType("text/html");
 	  String sitename = request.getQueryString();
 	  boolean success=false;
-	  try {
-		    PreparedStatement p = con.prepareStatement("delete from credential where sitename = ?");
-		    p.setString(1,sitename);
-		    p.executeUpdate();
-            success=true;
-	  }
-	  catch(Exception e) {
-		  e.printStackTrace();
+	  HttpSession session = request.getSession(true);
+	  if(session.getAttribute("username") != null) {
+		  try {
+			    PreparedStatement p = con.prepareStatement("delete from credential where sitename = ?");
+			    p.setString(1,sitename);
+			    p.executeUpdate();
+	            success=true;
+		  }
+		  catch(Exception e) {
+			  e.printStackTrace();
+		  }
 	  }
 	  
 	  if(success) {
 		    pw.println("<script type=\"text/javascript\">"); 
 			pw.println("alert('record deleted successfully...."+sitename+"');"); 
-			pw.println("location='add_credentials.jsp';"); 
+			pw.println("location='get_credentials.jsp';"); 
 			pw.println("</script>"); 
-	  }else {
+	  }
+	  else {
 		    pw.println("<script type=\"text/javascript\">"); 
 			pw.println("alert('something went wrong, record is not deleted');"); 
 			pw.println("location='add_credentials.jsp';"); 

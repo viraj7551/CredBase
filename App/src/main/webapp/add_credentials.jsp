@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,14 +57,12 @@
 					<form class="f1" autocomplete="off" action="/App/AddCredential"
 						method="post" onSubmit="return validate3();">
 						<div class="inputfield">
-							<input type="text" placeholder="site name * " name="sitename">
-							<input type="text" placeholder="username * " name="username" />
+							<input style="width:60%" type="text" placeholder="site name * " name="sitename">
+							<input style="width:60%" type="text" placeholder="username * " name="username" />
 						</div>
 						<div class="inputfield">
-							<input type="text" placeholder="credential value 1 * "
+							<input style="width:100%" type="password" placeholder="credential value 1 * "
 								name="credval1" /> 
-								<input type="text"
-								placeholder="credential value 2" name="credval2" />
 						</div>
 						<div class="formSubmit">
 							<input type="submit" value="ADD CREDENTIAL">

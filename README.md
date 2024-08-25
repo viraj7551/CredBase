@@ -96,6 +96,8 @@ Remembering credentials for infinite site has become difficult for user so they 
 
 7. credential list
 
-<img src="./images/credential list.png">
+<img src="./images/credential list1.png">
 
-<img src="./images/credentialList2.png">
+<img src="./images/credential list2.png">
+
+<img src="./images/credential list3.png">

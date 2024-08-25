@@ -62,7 +62,7 @@
                                <td class="tbl-header">site name</td>
                                <td class="tbl-header">username</td>
                                <td class="tbl-header">credential 1</td>
-                               <td class="tbl-header">credential 2</td>
+                               <td class="tbl-header">Preview</td>
                                <td class="tbl-header">remove credential</td> 
                            </tr>
                         </thead>
@@ -85,8 +85,8 @@
                   <tr class="resultset">
                       <td><%= rs.getString("sitename") %></td>
                       <td><%= rs.getString("username") %></td>
-                      <td><%= rs.getString("credential1") %></td>
-                      <td><%= rs.getString("credential2") %></td> 
+                      <td><input id="mypassword" type="password" readonly value="<%= rs.getString("credential1")%>"></td>
+                      <td><input id="result-input" type="checkbox" onclick="showPassword();"></td>  
                       <td><a href="/App/DeleteRecord?<%=rs.getString("sitename")%>"><i class="material-icons">delete</i></a></td>
                   <tr>
             		  

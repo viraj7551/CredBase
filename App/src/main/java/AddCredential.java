@@ -34,18 +34,16 @@ public class AddCredential extends HttpServlet {
 	  String sitename = request.getParameter("sitename");
 	  String username = request.getParameter("username");
 	  String credVal1 = request.getParameter("credval1");
-	  String credVal2 = request.getParameter("credval2");
 	  
 	  HttpSession  session = request.getSession();
 	  String uname = (String) session.getAttribute("username");
 	  boolean success = false;
 	  try {
-		  PreparedStatement ps = con.prepareStatement("insert into credential values(?,?,?,?,?)");
+		  PreparedStatement ps = con.prepareStatement("insert into credential values(?,?,?,?)");
 		  ps.setString(1,sitename);
 		  ps.setString(2,username);
-		  ps.setNString(3,credVal1);
-		  ps.setNString(4,credVal2);
-		  ps.setString(5,uname);
+		  ps.setString(3,credVal1);
+		  ps.setString(4,uname);
 		  ps.executeUpdate();
 		  success = true;
 	  }
