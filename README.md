@@ -7,7 +7,7 @@ But on other side there are many sites that have not integrated auth features to
 Remembering credentials for infinite site has become difficult for user so they keep common credentials to all sites which can be more dangerous from security point of view.
 
 # Problem Solution  &#x1F50D; 
-- CreadBase is an website which will help you to generate, store and access the credentials whenever you need.
+- CreadBase is an application which will help you to generate, store and access the credentials whenever you need.
 - CredBase rich features such as to generate password, add credentials to local database and fetch the credentials from local database will definitely address to the issue which user's are facing in above problem statement.
 
 # Application Features &#10024; 
