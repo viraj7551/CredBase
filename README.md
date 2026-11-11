@@ -2,13 +2,12 @@
 # Problem Statement 	&#x1f30b;
 
 Today users are getting engaged to infinite number of sites whether it may be related to profession, social, entertainment.
-In order to access service user has to get register themselves, there are sites that have integrated third party auth feature to sign-in.
-But on other side there are many sites that have not integrated auth features to their sites for <strong> due to less reliable </strong>, Now here user has to compulsory register himself with them.
-Remembering credentials for infinite site has become difficult for user so they keep common credentials to all sites which can be more dangerous from security point of view.
+In order to access service user has to get register themselves, Remembering credentials for infinite site has become difficult for user so they keep common credentials to all sites which can be more dangerous from security point of view.
+You may say there are sites that have integrated third party authentication feature to sign-up, But on other side there are many sites still not have integrated auth features to their sites  <strong> due to less reliability </strong>, Thereafter to manage credentials user can use credbase platform.
 
 # Problem Solution  &#x1F50D; 
 - CreadBase is an application which will help you to generate, store and access the credentials whenever you need.
-- CredBase rich features such as to generate password, add credentials to local database and fetch the credentials from local database will definitely address to the issue which user's are facing in above problem statement.
+- CredBase rich features such as to generate password, add credentials to local database and fetch the credentials from local database, credential hide & preview, remove credential from local database. Credbase will definitely address to the issue which user's are facing in above problem statement.
 
 # Application Features &#10024; 
 
