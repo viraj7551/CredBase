@@ -27,6 +27,7 @@ You may say there are sites that have integrated third party authentication feat
 - HTML 5
 - CSS
 - JavaScript
+- Java
 - JDK 1.8
 - Servlet
 - JSP
