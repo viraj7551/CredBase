@@ -27,6 +27,7 @@ You may say there are sites that have integrated third party authentication feat
 - HTML 5
 - CSS
 - JavaScript
+- Java
 - JDK 1.8
 - Servlet
 - JSP
@@ -40,7 +41,7 @@ You may say there are sites that have integrated third party authentication feat
 
 1. SQL Database setup
    - Download and Install MySQL Installer
-     Note: During Installation keep username as "root" and password as "root"
+     Note: During Installation keep username as "root" and password as per requirement. (according we have to update password into each Servlet file)
 
       Follow below sql queries:
       - create database credbase;
