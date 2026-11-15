@@ -71,7 +71,7 @@
                String driver = "com.mysql.cj.jdbc.Driver";
                String url = "jdbc:mysql://localhost:3306/credbase";
                String uname = "root";
-               String password = "root"; 
+               String password = "<<Your Database Password>>"; 
                try{
             	  Class.forName(driver);
             	  Connection con = DriverManager.getConnection(url,uname,password);

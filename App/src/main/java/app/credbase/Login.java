@@ -20,7 +20,7 @@ public class Login extends HttpServlet {
 	private static String driver = "com.mysql.cj.jdbc.Driver";
 	private static String url = "jdbc:mysql://localhost:3306/credbase";
 	private static String username = "root";
-	private static String password = "Viraj@6937";
+	private static String password = "<<Your Database Password >>";
     PreparedStatement ps = null;
     Connection con = null;
     PrintWriter pw = null;
